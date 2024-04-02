@@ -1,6 +1,6 @@
 public class TwoSumSortedSolution {
     public static void main(String[] args) {
-        int[] numbers = {-2,-7,11,15,12};
+        int[] numbers = {-1,-3,-9,13,15,12,24};
         int target = 10;
         int[] result = twoSum(numbers, target);
         System.out.println("Index1: " + result[0] + ", Index2: " + result[1]);
